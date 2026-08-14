@@ -50,8 +50,6 @@ are scored.
 
 ## Results
 
-## Results
-
 60 seeded runs (seeds 1-60, 300 s each): **1,134 logged collisions**,
 258,770 scored samples, 10,321 positive (4.0%). Scoring stride 1.0 s.
 Full summary committed at `results/full/summary.json`.
