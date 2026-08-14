@@ -60,6 +60,10 @@ Full summary committed at `results/full/summary.json`.
 | inv_ttc | 0.711 | 2.0 s | 1,514 |
 | neg_tts_margin | 0.706 | 4.0 s | 902 |
 
+![ROC curves](figures/fig_roc.png)
+
+![Lead-time distributions](figures/fig_lead_time.png)
+
 Reading this honestly: PORA separates collision-bound from safe samples
 best, and its 5%-FPR alarm reaches the most collision vehicles - but that
 alarm fires latest (median 1.0 s before impact). The TTS margin is the
