@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "risk-metric-bench"
+version = "0.1.0"
+description = "Metric-agnostic benchmark for surrogate safety metrics on SUMO Monte Carlo scenarios with ground-truth collision labels"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Cheng Ma" }]
+dependencies = ["numpy>=1.24", "pora-replication"]
+
+[project.optional-dependencies]
+sim = ["eclipse-sumo==1.27.1"]
+
+[tool.setuptools]
+packages = ["bench"]

@@ -1,0 +1,24 @@
+{
+  "n_samples": 258770,
+  "n_positive": 10321,
+  "metrics": {
+    "inv_ttc": {
+      "auroc": 0.7114630039681404,
+      "alarm_threshold_fpr05": 10.0,
+      "n_warned_collision_vehicles": 1514,
+      "median_lead_time_s": 2.0
+    },
+    "neg_tts_margin": {
+      "auroc": 0.7059181510312047,
+      "alarm_threshold_fpr05": 1.823927346837368,
+      "n_warned_collision_vehicles": 902,
+      "median_lead_time_s": 4.0
+    },
+    "pora": {
+      "auroc": 0.7386338417810153,
+      "alarm_threshold_fpr05": 0.506306876935171,
+      "n_warned_collision_vehicles": 1659,
+      "median_lead_time_s": 1.0
+    }
+  }
+}
